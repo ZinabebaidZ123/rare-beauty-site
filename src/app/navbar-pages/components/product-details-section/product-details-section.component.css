@@ -1,0 +1,19 @@
+.product-details h4{
+    margin-bottom: 2rem;
+}
+.product-details h3{
+    margin-top: 3rem;
+}
+.product-details .btn-with-brdr{
+    background-color:var(--third-color) ;
+    color: var(--sec-color);
+  
+}
+.product-details .btn-with-brdr::before{
+    border-top: 1px solid  var(--third-color);
+    border-right: 1px solid  var(--third-color);
+}
+.product-details .btn-with-brdr::after{
+    border-bottom: 1px solid  var(--third-color);
+    border-left: 1px solid  var(--third-color); 
+}

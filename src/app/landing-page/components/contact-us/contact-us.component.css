@@ -1,0 +1,111 @@
+/* start contact-us-section ---------------------------------- */
+.contact-us .contact-container{
+    background-color: var(--main-color);
+    padding: 0;
+    position: relative;
+    height: 72vh;
+}
+.contact-us .transperent-div{
+    width: 100%;
+    background-color: #fff;
+    height: 3rem;
+}
+.contact-us .contact-img{
+    width: 30%;
+  
+}
+.contact-us .contact-img img{
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+.contact-us .contact-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+.contact-us .contact-content .txt{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+.contact-us .contact-content .txt img{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    z-index: 0;
+
+} 
+.contact-us .contact-content p{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color:#fff;
+    display: inline-block;
+    
+}
+.contact-us .contact-content button{
+    background-color: var(--sec-color);
+    color: var(--main-color);
+    border: none;
+    outline: none;
+}
+.contact-us .contact-content img{
+    width: 5.25rem;
+}
+@media(max-width:992px){
+    .contact-us{
+        padding: 0 1rem;
+    }
+    .contact-us .contact-container{
+        height: 32vh;
+    }
+    .contact-us .transperent-div{
+        display: none;
+    }
+    .contact-us .contact-img img{
+        width: 46%;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        height:100%;
+    }
+    .contact-us .contact-content .txt img{
+        position: absolute;
+        bottom: 2rem;
+        right: 0;
+        z-index: 0;
+    
+    } 
+    /* .contact-us .contact-content img{
+        width: 3rem;
+    } */
+    .contact-us .contact-content .txt{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .contact-us .contact-content p{
+        font-size: 1.25rem;
+        font-weight: 900;
+        color:#fff;
+        display: inline-block;
+        
+    }
+    .contact-us .contact-content{
+        width: 55%;
+        height: 32vh;
+    
+}
+
+.contact-us .contact-content a img{
+    width: 40%;
+    margin-left: 1rem;
+}
+.contact-us .contact-content .txt img{
+    bottom: 0;
+    width: 4rem;
+}
+}

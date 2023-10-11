@@ -1,0 +1,60 @@
+/* start our products section ---------------------- */
+.bathrobe {
+    color: #000000;
+    text-align: left;
+    font: 300 3rem "Raleway", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  ._360-r-s {
+    color: #000000;
+    text-align: left;
+    font: 700 1.5rem "Raleway", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .head-product , .head-work{
+      color: #2e5343;
+      text-align: center;
+      font: 900 4rem "Raleway", sans-serif;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+    }
+      .our-product img {
+       width: 85% !important;
+    }
+
+    /* media query for our products section --------------------- */
+  @media(max-width:992px){
+    .our-product{
+        padding:0 4rem;
+    }
+    .our-product .buton{
+        width: 45% !important;
+    }
+    .our-product h2{
+        font-size: 2.5rem;
+    }
+    .sec-row .col-lg-4{
+        order:2;
+    }
+
+    .sec-row .col-lg-5{
+        order:3;
+    }
+    .our-product .row{
+        margin-bottom: 4rem;
+    }
+    .our-product .col-lg-5{
+        margin-top: 1.5rem;
+    }
+  }

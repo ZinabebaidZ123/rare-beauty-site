@@ -1,0 +1,59 @@
+/* start footer section ----------------------------- */
+footer{
+    background-color: var(--main-color);
+    position: relative;
+}
+footer .star{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.frame{
+    border: 2px solid var(--alt-sec-color);
+}
+footer .row{
+    padding: 6rem 0;
+}
+footer li{
+    line-height: 1.5;
+}
+footer li a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.25rem;
+    transition: 1s all;
+}
+footer li a:hover{
+    color: var(--main-color);
+}
+footer p{
+    color: #fff;
+}
+/* media query for footer ---------------------------- */
+@media(max-width:992px){
+
+    footer .row{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+    footer .col-lg-4{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    
+    }
+    footer ul{
+        padding: 0;
+        margin-top: 1.25rem ;
+    }
+    footer .footer-bottom{
+        padding-bottom: 3rem;
+    }
+    footer .star img {
+     width: 7rem;
+    }
+}

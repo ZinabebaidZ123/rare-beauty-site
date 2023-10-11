@@ -1,0 +1,140 @@
+/* start banner-section ------------------------------------ */
+.banner{
+    background-color: var(--main-color);
+   padding-bottom: 7rem;
+    position: relative;
+    height: 105vh;
+}
+
+.banner .banner-container{
+    position: relative !important;
+    top: 0 !important;
+}
+.banner .butn img{
+   width:30%;
+}
+.banner .banner-content{
+    padding-top: 9rem;
+    padding-bottom: 7rem;
+    width: 49%;
+    height: 100%;
+    position: relative;
+  
+}
+.banner .btn-with-brdr{
+    background-color: var(--sec-color);
+    color: var(--main-color);
+}
+.banner .btn-with-brdr::before{
+    border-top: 1px solid var(--sec-color) ;
+    border-right: 1px solid var(--sec-color);
+}
+.banner .btn-with-brdr::after{
+    border-bottom: 1px solid var(--sec-color) ;
+    border-left: 1px solid var(--sec-color);
+}
+.banner .txt{
+    position: relative;
+    display: inline-block;
+    padding-left: 2.5rem;
+}
+.banner .txt img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.buton img{
+    width: 40%;
+}
+.banner .banner-content .arrow-img{
+   position: absolute;
+   right: 1rem;
+   bottom: 3rem;
+}
+.banner .img-group{
+    position: absolute;
+    bottom: -11rem;
+    left: 0;
+    /* background-color: aqua; */
+    width: 62% !important;
+    display: flex;
+    justify-content: end;
+}
+
+.banner .img-group img{
+    width: 27% !important;
+}
+.banner .banner-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 25%;
+    padding-bottom: 3rem;
+}
+.banner .banner-img img{
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+.banner .star{
+    position: absolute;
+    bottom: -2.5rem;
+    right: 0;
+   
+}
+.banner .star img{
+    width:5rem;
+}
+/* .banner .white-space{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: #895348;
+} */
+@media(min-width:300px) and (max-width:380px){
+    .banner{
+        padding: 0 1.5rem;
+        height: 75vh;
+    }
+}
+@media(min-width:380px) and (max-width:992px){
+    .banner{
+        padding: 0 1.5rem;
+        height: 58vh;
+    }
+}
+@media(max-width:992px){
+   
+    .banner .banner-img{
+       width: 55% ;
+    }
+    .banner .banner-content .arrow-img{
+        position: absolute;
+        right: 2.5rem;
+        top: 67%;
+     }
+    .banner h1{
+        font-size: 2.8rem;
+    }
+    .banner .txt{
+        padding: 0;
+    }
+    .banner .txt img{
+        display: none;
+    }
+    .banner .img-group{
+        left:3rem;
+        width: 45%;
+    }
+    .banner .img-group img{
+        width: 57% !important;
+        margin-top: 2rem;
+    }
+    .banner .butn img{
+        width: 75% ;
+    }
+    
+}

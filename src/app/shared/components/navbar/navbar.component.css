@@ -1,0 +1,44 @@
+/*start  navbar style ------------------------------------ */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+ .button {
+    position: relative;
+    /* background-color: aqua; */
+}
+.navbar a{
+    font-size: 1rem !important ;
+    font-weight: 400 !important;
+    color: #fff !important;
+}
+.navbar .navbar-toggler-icon{
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar .btn-with-brdr{
+    background-color: var(--sec-color);
+    color: var(--main-color) !important;
+}
+.navbar .btn-with-brdr::before{
+    border-top: 1px solid var(--sec-color) ;
+    border-right: 1px solid var(--sec-color);
+}
+.navbar .btn-with-brdr::after{
+    border-bottom: 1px solid var(--sec-color) ;
+    border-left: 1px solid var(--sec-color);
+}
+/* #navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #navbar.green-bg {
+    background-color: var(--main-color) !important;
+  } */
+
+  .header_change{
+    background-color: var(--main-color);
+  }

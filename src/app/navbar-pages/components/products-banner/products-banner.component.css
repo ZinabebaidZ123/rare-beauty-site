@@ -1,0 +1,26 @@
+/* start product banner section ------ */
+.product-banner{
+    height: 60vh;
+    background-color: var(--main-color);
+    margin-bottom: 5rem;
+ 
+}
+.product-banner .container{
+    position: relative;
+}
+.product-banner .content{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+
+
+}
+.product-banner .content h1{
+    margin-bottom: 3rem;
+}
+.product-banner .content .row{
+    transform: translateY(1rem);
+}

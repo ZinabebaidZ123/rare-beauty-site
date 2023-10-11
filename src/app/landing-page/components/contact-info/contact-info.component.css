@@ -1,0 +1,35 @@
+/* start contact-info-section --------------------------------- */
+.contact-info .contact-info-content button{
+    background-color: var(--main-color);
+    color: var(--sec-color);
+    padding: 0.5rem 2rem;
+}
+.contact-info .contact-info-content ul{
+    margin-top: 3rem;
+}
+.contact-info .contact-info-content li{
+    line-height: 1.8;
+    color: #000;
+}
+.contact-info .contact-info-content li a{
+    color: #000;
+}
+.contact-info-img{
+    position: relative;
+}
+
+.contact-info-img .map-img{
+    width: 90% !important;
+    position: absolute;
+    left:5%;
+}
+
+/* media query for contact-info section -------------------------- */
+@media(max-width:992px){
+    .contact-info .content{
+        order: 3;
+    }
+    .contact-info .img{
+        order: 2;
+    }
+}

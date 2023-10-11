@@ -1,0 +1,31 @@
+/* start about-us-section  ---------------- */
+.about-us{
+    position: relative;
+    margin-top: 11rem;
+}
+.about-us .about-txt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* media query for about-us-section ------------------------ */
+@media(max-width:992px){
+    .about-us .row .col-lg-4{
+    justify-content: center !important;
+    padding:0 2rem ;
+   }
+   .about-us .container-fluid{
+    padding:0 1.5rem ;
+   }
+   .about-us .about-txt{
+    display: none;
+   }
+   .about-us .mob-txt{
+    display: block !important;
+    text-align: center;
+    margin-top: 2rem;
+   }
+   .about-us .mob-txt img{
+    width: 80%;
+   }
+}
